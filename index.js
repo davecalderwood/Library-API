@@ -9,6 +9,7 @@ db.then(() => {
     console.log('Connected to the server my dude...')
 })
 
+// Adding Test Commit
 const getHome = async (req,res) => {
     send(res, 200, 'Home Page')
 }
